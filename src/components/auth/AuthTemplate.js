@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 import palette from '../../lib/styles/palette'
 import { Link } from 'react-router-dom'
 
@@ -40,7 +40,7 @@ const AuthTemplate = ({ children }) => {
     return (
         <AuthTemplateBlock>
             <WhiteBox>
-                <div>
+                <div className="logo-area"> 
                     <Link to="/">SEARFin</Link>
                 </div>
                 { children }
